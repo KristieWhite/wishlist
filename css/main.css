@@ -3,7 +3,8 @@ li {
 }
 
 #ulNavBar li {
-    background-color: deepskyblue;
+    background-color: black;
+    color: white;
     padding: 2em;
     display: inline;
     
@@ -43,10 +44,16 @@ li {
 }
 
 #ulAddBar li {
-    background-color: deepskyblue;
+    background-color: black;
+    color: white;
     padding: 2em;
     display: inline;
     width: 40%;
+}
+#right {
+    float: right;
+    width: 40%;
+    padding: 0 3em 0 0;
 }
 
 #right img {
@@ -58,6 +65,11 @@ li {
     
 }
 
-#ulPR {
-    
+.floatLeft {
+    float: left;
+}
+
+.ulPR li {
+    margin-left: 9em;
+    padding: 1em;
 }
