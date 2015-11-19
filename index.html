@@ -1,11 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>test</title>
+  <meta charset="UTF-8">
+  <!--REMOVE THESE LINKS-->
+  <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+  <link rel="stylesheet" type="text/css" href="css/main.css" />
+  <title>Home Page</title>
 </head>
 <body>
-	<div class="container" id="container"></div>
-	<script src="js/bundle.js"></script>
+  <div id="container" class="container">
+   <div id="navBar">
+       <ul id="ulNavBar" class="styleNavs">
+           <li>MY WISH LIST</li>
+           <li>MY PLEDGES</li>
+       </ul>
+   </div>
+   <p class="clearFloat"></p>
+   <div id="left">
+       <div id="birthday" class="wishCategories">
+           <img src="assets/birthday.jpg" />
+       </div>
+       <div id="christmas" class="wishCategories">
+           <img src="assets/merry-christmas.jpg">
+       </div>
+       <div id="graduation" class="wishCategories">
+           <img src="assets/graduation.png">
+       </div>
+       <div id="wedding" class="wishCategories">
+           <img src="assets/wedding.html">
+       </div>
+       <div id="other" class="wishCategories">
+           <img src="">
+       </div>
+       
+   </div><!--closes the left side categories-->
+   <div id="right">
+       <div id="pr1" class="pr">
+          <h2>Domingo</h2>
+           <img src="http://www.bestbuy.com/site/electronics/computers-pcs/abcat0500000.c?id=abcat0500000" />
+           <p class="prTitles">Title</p>
+           <p class="prTitles">Description</p>
+           <p class="prTitles">Price</p>
+           <p class="prTitles">Expiration</p>
+       </div>
+       <div id="pr2" class="pr">
+          <h2>Ralph</h2>
+           <img src="">
+          <ul id="ulPR">
+              <li>Title</li>
+              <li>Description</li>
+              <li>Price</li>
+              <li>Expiration</li>
+          </ul>
+       </div>
+       <div id="pr3" class="pr">
+          <h2>Peter</h2>
+           <img src="">
+           <p></p>
+       </div>
+       <div id="pr4" class="pr">
+          <h2>Kristie</h2>
+           <img src="">
+           <p></p>
+           <p></p>
+           <p></p>
+           <p></p>
+       </div>
+       <div id="pr5" class="pr">
+          <h2>Mike</h2>
+           <img src="">
+           <p></p>
+           <p></p>
+           <p></p>
+           <p></p>
+       </div>
+       <p id="totalAmountPledged"></p>
+   </div><!--closes the right side pledges-->
+    <p class="clearFloat"></p>
+     <div id="addBar">
+         <ul id="ulAddBar" class="styleNavs">
+             <li>ADD A CATEGORY</li>
+             <li>ADD A PLEDGE</li>
+         </ul>
+     </div>
+    </div><!--closes container-->
+  <script src="js/bundle.js"></script>
 </body>
 </html>

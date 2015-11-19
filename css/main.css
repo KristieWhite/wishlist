@@ -1,0 +1,63 @@
+li {
+    list-style: none;
+}
+
+#ulNavBar li {
+    background-color: deepskyblue;
+    padding: 2em;
+    display: inline;
+    
+}
+
+.styleNavs {
+    margin: auto;
+    float: left;
+    width: 50%;
+}
+
+.styleNavs li {
+    float: left;
+    width: 40%;
+}
+
+.clearFloat {
+    clear: both;
+    margin: 0;
+    padding: 0;
+}
+
+#left {
+    margin: auto;
+    float: left;
+    width: 40%;
+    padding: 0 0 0 3em;
+}
+
+#left img {
+    width: 500px;
+    height: 300px;
+}
+
+.wishCategories {
+    margin: 0 0 2em 0;
+}
+
+#ulAddBar li {
+    background-color: deepskyblue;
+    padding: 2em;
+    display: inline;
+    width: 40%;
+}
+
+#right img {
+    width: 150px;
+    height: 200px;
+}
+
+.prTitles{
+    
+}
+
+#ulPR {
+    
+}
