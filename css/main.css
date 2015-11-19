@@ -2,18 +2,25 @@ li {
     list-style: none;
 }
 
+#ulNavBar {
+    padding: 0 0 1em 1em;
+}
+
 #ulNavBar li {
     background-color: black;
     color: white;
     padding: 2em;
     display: inline;
-    
 }
 
 .styleNavs {
     margin: auto;
     float: left;
     width: 50%;
+}
+
+.wishCategories img {
+    border-radius: 25px;
 }
 
 .styleNavs li {
